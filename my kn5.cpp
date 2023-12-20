@@ -203,6 +203,7 @@ void Motion() { // Переключение ходов
 int main() {
 	int repeat = 1; // Переменная отвечающая за новую игру
 	while (repeat == 1) {
+		counter = 0;
 		while (gameOwer == false) {
 			system("cls");
 			Draw();
