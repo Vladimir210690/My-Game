@@ -152,9 +152,9 @@ void GameOwer() { // Варианты завершения игры
 			vinner = true;
 		}
 	}
-	if (counter == 9 && vinner == false) { // Вариант с ничьей
+	if (counter == 9 && /*vinner == false*/) { // Вариант с ничьей
 		gameOwer = true;
-		cout << "Game Ower! Draw";
+		cout << "Game Ower! Draw" << endl;
 	}
 }
 
